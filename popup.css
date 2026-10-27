@@ -1,0 +1,61 @@
+﻿body {
+    width: 200px;
+    margin: 5px;
+    align-items: center;
+}
+body > * {
+    margin-top: 3px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+}
+input::placeholder {
+    color: gray;
+}
+
+.section {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    width: 100%;
+}
+.section *{
+    margin: 3px;
+}
+
+#symbols {
+    max-height: 120px;
+    border-top: 1px dashed gray;
+    border-bottom: 1px dashed gray;
+    margin-top: 5px;
+    overflow-y: auto;
+    width: 90%;
+}
+.symbolDisplay {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1px
+}
+.symbolDisplay button {
+    margin-left: auto;
+}
+.symbolDisplay div {
+    margin-left: 10px;
+}
+
+.HBox {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding: 0px;
+    align-items: center;
+}
+.VBox {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 0px;
+    align-items: center;
+}

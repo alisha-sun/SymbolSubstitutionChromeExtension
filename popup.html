@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <script src="ui.js"></script>
+</head>
+<body>
+    <div class="section VBox" style="gap: 0px">
+        <div class="HBox">
+            <div>Name:</div>
+            <input id="symbolName" type="text">
+        </div>
+        <div class="HBox" style="margin-top: 0px">
+            <div>Symbol:</div>
+            <input id="symbol" type="text">
+        </div>
+        <button id="addSymbol" style="margin-bottom: 5px">Add symbol</button>
+    </div>
+
+    <div class="section VBox" style="gap: 0px">
+        <h3 style="text-align: center">Your symbols:</h3>
+        <input id="search" type="text" placeholder="Search symbols..." style="width: 80%">
+        <div id="symbols"></div>
+
+        <div class="HBox">
+            <button id="import" style="margin-bottom: 5px">Import</button>
+            <button id="export" style="margin-bottom: 5px">Export</button>
+            <input id="fileInput" type="file" accept=".json" style="display: none">
+        </div>
+        
+    </div>
+
+        <script src="popup.js"></script>
+</body>
+</html>
